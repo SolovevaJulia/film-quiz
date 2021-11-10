@@ -41,6 +41,16 @@ img {
   margin-bottom: 40px;
 }
 
+.qestion-number {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.queston-number-right {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 /* Первый вопрос */
 
 .film-wrapper {
@@ -77,5 +87,14 @@ img {
 }
 
 .second-film-picture {
+  display: none;
+}
+
+/* Третий вопрос */
+.third-question {
+  display: block;
+}
+
+.third-film-picture {
   display: none;
 }
