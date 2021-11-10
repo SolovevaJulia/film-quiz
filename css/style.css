@@ -44,6 +44,16 @@ img {
   position: relative;
 }
 
+.question {
+  position: absolute;
+  display: block;
+}
+
+.film-picture {
+  display: none;
+  position: absolute;
+}
+
 .film-question {
   font-size: 24px;
   margin-bottom: 40px;
@@ -60,7 +70,7 @@ img {
   border: #cd1726;
 }
 
-.show {
+/* .show {
   z-index: 2;
   opacity: 1;
   position: absolute;
@@ -70,4 +80,4 @@ img {
   z-index: 1;
   opacity: 0;
   position: absolute;
-}
+} */

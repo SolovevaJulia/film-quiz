@@ -1,11 +1,20 @@
-const answer = document.querySelectorAll('.button-answer');
+// Настройка кнопок
+
+const answer = document.querySelectorAll('.button-answer'),
+      question = document.querySelector('.question'),
+      image = document.querySelector('.film-picture');
 
 answer.forEach(item => {
    item.addEventListener('click', (e) => {
       if (e.target.value == "true") {
-         alert('Ответ верный');
+         e.target.classList.add('button-green');
+         question.target.style.display = 'none';
+         image.target.style.display = 'block';
+         
       } else {
-         alert('Ответ неверный');
+         e.target.classList.add('button-red');
       }
    });
 });
+
+// Настройка изображения фильма
