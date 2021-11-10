@@ -36,27 +36,19 @@ img {
   margin-bottom: 40px;
 }
 
+.question {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* Первый вопрос */
+
 .film-wrapper {
   display: flex;
   flex-direction: column;
   width: 700px;
   margin-bottom: 30px;
   position: relative;
-}
-
-.question {
-  position: absolute;
-  display: block;
-}
-
-.film-picture {
-  display: none;
-  position: absolute;
-}
-
-.film-question {
-  font-size: 24px;
-  margin-bottom: 40px;
 }
 
 /* Стили для ответов */
@@ -70,14 +62,20 @@ img {
   border: #cd1726;
 }
 
-/* .show {
-  z-index: 2;
-  opacity: 1;
-  position: absolute;
+/* Первый вопрос */
+.first-question {
+  display: block;
 }
 
-.hidden {
-  z-index: 1;
-  opacity: 0;
-  position: absolute;
-} */
+.first-film-picture {
+  display: none;
+}
+
+/* Второй вопрос */
+.second-question {
+  display: block;
+}
+
+.second-film-picture {
+  display: none;
+}
