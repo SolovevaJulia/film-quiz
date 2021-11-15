@@ -38,7 +38,7 @@ img {
 
 .question {
   font-size: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .qestion-number {
@@ -81,6 +81,10 @@ img {
   display: none;
 }
 
+.first-film-title {
+  display: none;
+}
+
 /* Второй вопрос */
 .second-question {
   display: block;
@@ -90,11 +94,19 @@ img {
   display: none;
 }
 
+.second-film-title {
+  display: none;
+}
+
 /* Третий вопрос */
 .third-question {
   display: block;
 }
 
 .third-film-picture {
+  display: none;
+}
+
+.third-film-title {
   display: none;
 }
